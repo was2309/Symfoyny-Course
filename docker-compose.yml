@@ -44,6 +44,10 @@ services:
 
 volumes:
   course_symfony_database_volume:
+
+###> doctrine/doctrine-bundle ###
+  db-data:
+###< doctrine/doctrine-bundle ###
     driver: local
 
 networks:
